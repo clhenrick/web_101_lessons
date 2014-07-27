@@ -1,0 +1,4 @@
+Simple 2 Column layout
+=======================
+
+from CSS Tricks: http://css-tricks.com/super-simple-two-column-layout/
