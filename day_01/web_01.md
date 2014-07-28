@@ -88,3 +88,16 @@ Bootcamp Web Class Day One
 	
 	- connect to a-server on Cyberduck
 	- load something there and let’s have a look on the web?
+	
+7. ### Homework
+	__Read the following:__
+
+	* _HTML & CSS:_ Read the introduction chapter and chapter 1. You can download this book here. This is a very easy read and covers a lot of what we talked about today. Lots of pictures and very few words so no excuses not to read it!
+	
+	* Read [this article](http://www.joelonsoftware.com/articles/Unicode.html) on __Character Encoding.__ Kind of technical but important to know about.
+	
+	* __pro tip:__ I like to use the Readability App to read text on webpages. It formats the text and removes advertisements for you. You can also save articles, tag them and view them on your mobile device.
+	
+	__Complete this Assignment:__
+	
+	Email me 3-5 websites that you like and tell me why, how it's useful or fun, what is good or bad about the design: could be the layout, use of color and typography, User Interface (UI), User Experience (UX), etc. Write a paragraph (3-5 sentences) about each one.
