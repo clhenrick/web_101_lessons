@@ -1,8 +1,17 @@
 Bootcamp Web Class Day Two: HTML
 ========
 ## intro:
-- webpages are sort of like electronic or digital versions of documents.
+- go over character encoding article (reading assingment from last night) and why this is important. 
+
+- go over HTML & CSS book intro and chapter 1 (briefly)
+
+- have students mention one site they like from the home work and say why. 5 minutes each.
+
+- demo Web Inspector in Dev Tools; re-style and break websites, hack Flickr and Instagram photos.  
+
+- state how webpages are sort of like electronic or digital versions of documents.
   - EG: a newspaper like the NY Times. Same content in print and web, but in different form.
+
 
 - explain how HTML is like our outline or skeleton of our webpages. It gives them structure. 
   - Just a bunch of boxes or containers. Later we will get more into something called the “box model” which describes the properties of these boxes.
@@ -12,9 +21,7 @@ Bootcamp Web Class Day Two: HTML
 
 - together they are the blue-prints for what we see on the web.
 
-- p.s. CSS does some interactivity but this is mostly handled by Javascript.
-
-- go over character encoding article (reading assingment from last night) and why this is important. 
+- p.s. CSS does some interactivity but this is primarily handled by Javascript. 
 
 ## anatonomy of an HTML tag
 
