@@ -25,15 +25,16 @@ Bootcamp Web Class Day Two: HTML
 - anatomy of a tag: 
   - left bracket to open `<`
     - if you are writing a closing tag, then next would come a `/`
-  - tag name or character `div` or `p`
-  - attributes `style=“color: aqua;”` or `href=“./images/img.jpg”` or `lang=“en-us”`
-    - attribute name then value
-    - notice no spaces between the attribute name, `=` and `“”`	
+  - tag name or character, eg: `div` or `p`
+  - attributes, like: `style=“color: aqua;”` or `href=“./images/img.jpg”` or `lang=“en-us”`
+    - `attribute name` then `=` then `value`
+    - notice no spaces between the attribute name, `=` and `“”`
+    - value can be multiple properties such as used by inline CSS, eg: `style="background-color:#FFF;"`	
   - right bracket to close `>`
 
 - most tags need to be closed. some are self closing.
 
-- tags can be nested within each other. We indent nested tags to make our code more readable.
+- tags can be nested within each other. We indent nested tags to make our code more 'human readable.'
 
 - a browser will render our html and apply really boring default styles without assigning it any CSS.
 
@@ -47,6 +48,8 @@ Go through most common tags, coding them one by one explaining & what each is fo
     - we begin and end our page with this. needs to be closed
   - `<head>`
     - information about our page and links to external stuff our page uses, doesn’t get rendered to the browser’s viewport. needs to be closed.
+  - `<title>`
+    - the title of your webpage.
   - `<meta>`
     - descriptive properties about our page like the language, character encoding, the author, title, key words, etc. self closing.
     - used by search engines
@@ -114,3 +117,6 @@ Go through most common tags, coding them one by one explaining & what each is fo
   - attribute
 
 - __homework:__ reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want.
+
+## Reference:
+- MDN [HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
