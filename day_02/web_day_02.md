@@ -135,22 +135,23 @@ Go through most common tags, coding them one by one explaining & what each is fo
 ### homework: 
 Reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want but at the very minimum:
 
-- set up a webpage as we've done in class using the doctype declaration, root, head, and body tags.
+- make some more HTML! Create something meaningful, could be a recipe, instructions to build something, a bibliography, poetry, fictional story.
+- set up a webpage as we've done in class using the doctype declaration as well as root, head, and body tags.
 - inside your head tag be sure to specify things like the title, character encoding, author, description, etc.
 - use at least:
   - 3 `<h1>...<h6>` elements, 
   - 2 `<p>` tags, 
-  - an ordered list, 
-  - an unordered list, 
-  - a `<br>`, 
-  - a `<hr>`, 
-  - one link, 
-  - one image, 
+  - an ordered list, `<ol>` 
+  - an unordered list, `<ul>`
+  - at least one `<br>`, 
+  - at least one `<hr>`, 
+  - one link using `<a href="#">`, 
+  - one image using `<img>`, 
   - 3 `<div>`'s, 
-  - 2 `<span>` tags
-- write a `<!-- comment -->` above each line of your document saying what it does in a way that makes sense to you.
+  - 2 `<span>`'s
+- ** _important:_ ** write a `<!-- comment -->` above each line of code in your document saying what it does, in a way that makes sense to you.
 
-Post this to the blog or email to me by 8am tomorrow.
+__ *Post this to the blog or email to me by 8am tomorrow.* __
 
 
 ## Reference:
