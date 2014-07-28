@@ -14,6 +14,8 @@ Bootcamp Web Class Day Two: HTML
 
 - p.s. CSS does some interactivity but this is mostly handled by Javascript.
 
+- go over character encoding article (reading assingment from last night) and why this is important. 
+
 ## anatonomy of an HTML tag
 
 
