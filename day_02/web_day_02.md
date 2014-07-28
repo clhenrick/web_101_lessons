@@ -112,9 +112,15 @@ Go through most common tags, coding them one by one explaining & what each is fo
 ### tips:
 - I strongly recommend making **flash-cards** when you are first learning this stuff and then quizzing yourself a few times a day when you have 5-10 minutes. This will help a ton!
 - terminology:
+  - DOM 
   - opening tag
   - closing tag
   - attribute
+  - root
+  - metadata
+  - link
+  - content
+  - embed
 
 - __homework:__ reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want.
 
