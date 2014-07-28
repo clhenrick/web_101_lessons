@@ -107,11 +107,9 @@ Go through most common tags, coding them one by one explaining & what each is fo
 ### watch out for:
 - not closing your tags!
 - white space: web browsers will render extra white space as a single line space and a new line without a `<br>` on the same line
-- escaping characters & unicode symbols ( *see book HTML & CSS pg 194* )
-   
-### tips:
-- I strongly recommend making **flash-cards** when you are first learning this stuff and then quizzing yourself a few times a day when you have 5-10 minutes. This will help a ton!
-- terminology:
+- escaping characters & unicode symbols ( *see book HTML & CSS pg 194* )   
+
+### terminology:
   - DOM 
   - opening tag
   - closing tag
@@ -121,8 +119,30 @@ Go through most common tags, coding them one by one explaining & what each is fo
   - link
   - content
   - embed
+  
+### tips:
+- I strongly recommend making **flash-cards** when you are first learning this stuff and then quizzing yourself a few times a day when you have 5-10 minutes. This will help a ton!
 
-- __homework:__ reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want.
+### homework: 
+Reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want but at the very minimum:
+
+- set up a webpage as we've done in class using the doctype declaration, root, head, and body tags.
+- inside your head tag be sure to specify things like the title, character encoding, author, description, etc.
+- use at least:
+  - 3 `<h1>...<h6>` elements, 
+  - 2 `<p>` tags, 
+  - an ordered list, 
+  - an unordered list, 
+  - a `<br>`, 
+  - a `<hr>`, 
+  - one link, 
+  - one image, 
+  - 3 `<div>`'s, 
+  - 2 `<span>` tags
+- write a `<!-- comment -->` above each line of your document saying what it does in a way that makes sense to you.
+
+Post this to the blog or email to me by 8am tomorrow.
+
 
 ## Reference:
 - MDN [HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
