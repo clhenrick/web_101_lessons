@@ -27,8 +27,9 @@ Bootcamp Web Class Day Two: HTML
 
 
 - what are html tags / elements? why do we need them? who wrote this annoying looking crap?
+  - they are basically containers.
 
-- semantics in html: help us read our code easier, don’t really affect how pages are rendered.
+- semantics in HTML: help us read our code easier, don’t really affect how pages are rendered.
   - they are used by screen readers however
 
 - anatomy of a tag: 
