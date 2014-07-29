@@ -128,7 +128,7 @@ _more complex:_
 1. 2 classes and 1 element: `.foreground p.test { color: #000FFF; }` --> 0,0,2,1
 2. 2 classes and 2 elements: `.foreground p a.hover { color: #00e9ff; }` --> 0,0,2,2
 
-in the above example 1. would override 2. _but..._
+in the above example 2. would override 1. because the # of element selectors is the same as the # of class selectors, _but..._
 
 - if we add an id, it will override both 1. and 2.
 - ex: `#some-id { color: #000; }` --> 0,1,0,0
