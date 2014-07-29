@@ -111,13 +111,33 @@ To determine the priority of a selector use a four digit list:
   
 - `0,0,0,0` maps to —> number of `inline styles`, number of `id selectors`, number of `class selectors`, number of `element selectors`.
 - __note:__ the `!important` value will override all of these.
-- if digits in two or more places are the same number then CSS will default to the last one.
-- but if there is a digit > 0 before the following digit it will override following methods.
-  - (example if you have 1 id but 2 classes and 2 element selectors the id will override).
+- if digits in two or more places are the same number then CSS will default to the last one in the list.
+- but if there is a digit > 0 before a following digit it will override the following methods.
+  - (for example if you have 1 id but 2 classes and 2 element selectors the id will override the class and element selectors).
+
+__examples:__
+
+- an element selector: `h3 { color: #000; }` --> 0,0,0,1
+- a class selector: `.foreground { color: rgb(100,100,0);}` --> 0,0,1,0
+- an id selector: `#speacil { color: #FFF000; }` --> 0,1,0,0
+- an inline-style: `<h3 style="color:hsl(0,50%,50%);"` --> 1,0,0,0
+- an important override: `h3 { color: #00e9ff !important;}` --> overrides all the above
+
+_more complex:_
+
+1. 2 classes and 1 element: `.foreground p.test { color: #000FFF; }` --> 0,0,2,1
+2. 2 classes and 2 elements: `.foreground p a.hover { color: #00e9ff; }` --> 0,0,2,2
+
+in the above example 1. would override 2. _but..._
+
+- if we add an id, it will override both 1. and 2.
+- ex: `#some-id { color: #000; }` --> 0,1,0,0
+
+For this reason it's generally a good practice to not use a lot of id's.
 
 __caution:__ space or no space between selectors matters!
 
-- ex: .primary p .copyright vs. .primary p.copyright
+- ex: `.primary p .copyright` vs. `.primary p.copyright`
 
 #### Solving Specificity problems
 - using default values for html elements
@@ -126,8 +146,18 @@ __caution:__ space or no space between selectors matters!
 
 #### despecifying
 - refactor code that is specific to be more broad
-ie: for all <p> instead of <p class=“main second”>
+  - ie: write an element selector for all `<p>`s instead of something like `<p class=“main second”>`.
 
+## Best Practices
+- write CSS in an external file and link it to your HTML
+- use the indentation method of writing CSS
+- practice D.R.Y. CSS by:
+  - use inheritance 
+  - limiting the number of id's
+  - trying to use classes instead
+  - grouping selectors when possible
+  - not getting over-specific with CSS
+- try not to use the `!important` flag
 
 ## references:
 - MDN reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
