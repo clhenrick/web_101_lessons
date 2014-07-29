@@ -109,7 +109,7 @@ _(demonstrate each of these)_
 
 To determine the priority of a selector use a four digit list: 
   
-- 0,0,0,0 —> inline styles, # of id selectors, # of class selectors, # of element selectors.
+- `0,0,0,0` maps to —> number of `inline styles`, number of `id selectors`, number of `class selectors`, number of `element selectors`.
 - __note:__ the `!important` value will override all of these.
 - if digits in two or more places are the same number then CSS will default to the last one.
 - but if there is a digit > 0 before the following digit it will override following methods.
