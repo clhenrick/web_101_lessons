@@ -154,10 +154,11 @@ __caution:__ space or no space between selectors matters!
 - practice D.R.Y. CSS by:
   - use inheritance 
   - limiting the number of id's
-  - trying to use classes instead
+  - use classes instead
   - grouping selectors when possible
-  - not getting over-specific with CSS
+  - not getting over-specific with CSS / use selector abstraction
 - try not to use the `!important` flag
+
 
 ## references:
 - MDN reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
