@@ -39,9 +39,9 @@ __example:__
 
 __example:__
 
-	```
-	<section>		<header>			<h1>The heading of the section</h1>			<p>This is content in the header.</p>		</header>		<p>This is some information within the section.</p>		<footer>			<p>By "Author Name"</p>		</footer>	</section>
-	```
+```
+<section>	<header>		<h1>The heading of the section</h1>		<p>This is content in the header.</p>	</header>	<p>This is some information within the section.</p>	<footer>		<p>By "Author Name"</p>	</footer></section>
+```
 
 ### Aside
 - covers various contexts:
