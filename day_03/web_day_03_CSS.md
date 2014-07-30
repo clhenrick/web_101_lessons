@@ -1,7 +1,7 @@
 Day 3: Intro to CSS Notes
 =========================
 ## Order of subjects:
-1. CSS, what is it? Cascading Style Sheets. 
+1. CSS, what is it? 
 2. CSS syntax, an overview.
 	1. Selectors
 	2. Common Properties
@@ -69,9 +69,11 @@ CSS works with `selectors` and `properties`.
    property: value;
  }
  ```
-* a `selector` is what targets an HTML element on our page
+* a `selector` is what targets an HTML element on our page.
 * an opening curly bracket `{` to start our declaration
-* a `property` followed by a colon `:` then a `value` (some properties take multiple values)
+* a `property` followed by a colon `:` then a `value` 
+  * some properties take multiple values.
+  * values can be in the form of `keywords`, numbers or even `strings`.
 * a semicolon `;` which states this is the end of one CSS property.
 * a closing curly bracket `}`
 
@@ -104,7 +106,7 @@ There are many types of properties in CSS, we will start with a few common ones.
 - `font-family` indicates the font we would like to use
 - `font-size` can be set in pixels, em's, or %'s
 - `font-style`: typically normal or italic.
-- `font-weight`: can use key words or numerical values such as 100, 200, ... 900.
+- `font-weight`: can use `key words` or numerical values such as 100, 200, ... 900.
 - `psuedo classes` : allow us to add some interactivity for things like hover.
 
 #### Shorthand properties
