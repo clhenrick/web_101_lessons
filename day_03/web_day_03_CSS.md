@@ -7,6 +7,7 @@ Day 3: Intro to CSS Notes
 	2. Common Properties
 	3. Combining Selectors
 3. General Best Practices
+4. Resources for CSS on the web
 
 ## Why CSS?
 
@@ -56,7 +57,10 @@ __However:__
 
 
 ### anatomy of CSS Syntax
-CSS works with `selectors` and `properties`:
+CSS works with `selectors` and `properties`.
+
+- there are 4 main types of `selectors`
+- `properties` are in the form of value pairs.
  
  ```
  selector {
@@ -98,9 +102,30 @@ There are many types of properties in CSS, we will start with a few common ones.
 - `color` sets the font color
 - `background-color` sets the background color
 - `font-family` indicates the font we would like to use
-- `font-size` 
-- `font-weight`
-- ``
+- `font-size` can be set in pixels, em's, or %'s
+- `font-style`: typically normal or italic.
+- `font-weight`: can use key words or numerical values such as 100, 200, ... 900.
+- `psuedo classes` : allow us to add some interactivity for things like hover.
+
+#### Shorthand properties
+Some CSS properties can be written in shorthand. For example the `font` property:
+
+```
+table.geeky {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+```
+these four properties can be combined into a single property:
+
+```
+table {
+  font: italic bold 10px sans-serif;
+}
+```
+
 
 ### combining selectors
 
@@ -181,6 +206,8 @@ __caution:__ space or no space between selectors matters!
 
 
 ## references:
-- MDN reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-- css tricks: http://css-tricks.com/pseudo-class-selectors/
-- more css tricks: http://css-tricks.com/pseudo-element-roundup/
+- [CSS Cheatsheet](http://d2o9nyf4hwsci4.cloudfront.net/2011/fall/lectures/8/cheatsheets/css-cheat-sheet-v2.pdf)
+- [MDN reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) 
+- [CSS Tricks](http://css-tricks.com/pseudo-class-selectors/) 
+- [more CSS Tricks](http://css-tricks.com/pseudo-element-roundup/)
+- [MDN psuedo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
