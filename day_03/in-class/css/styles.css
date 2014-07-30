@@ -1,0 +1,52 @@
+/* here's a comment */
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #D9D8AA;
+}
+
+p {
+  background-color: black;
+  color: white;
+
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+p.speacil {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: red;
+}
+
+p.speacil.last {
+/*  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 20px;
+  font-weight: 900;*/
+  font: italic 900 20px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: orange;
+}
+
+p em {
+  font-style: normal;
+  font-family: serif;
+}
+
+p span {
+  background-color: white;
+}
+
+a {
+  color: #00FF07;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #009207;
+}
+
+a:hover {
+  color: yellow;
+}
+
+
+
+
