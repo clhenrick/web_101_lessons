@@ -213,3 +213,45 @@ __caution:__ space or no space between selectors matters!
 - [CSS Tricks](http://css-tricks.com/pseudo-class-selectors/) 
 - [more CSS Tricks](http://css-tricks.com/pseudo-element-roundup/)
 - [MDN psuedo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+
+## Homework:
+
+### Assignment: 
+
+Write three (3) separate CSS style sheets for the same HTML markup. Post these on the the blog as 3 separate links. 
+
+This means: copying your same HTML file 3 times and writing 3 different CSS files. All files should be in a parent folder and all CSS files should be in a "css" sub-folder.
+
+So if your parent folder is called "web" and the naming convention for your HTML file is like hw_day01_1.html and your CSS file is like styles1.css then your directory tree in Cyberduck would look like:
+
+- /public_html/web/hw_day02_1.html 
+- /public_html/web/hw_day02_2.html 
+- /public_html/web/hw_day02_3.html
+- /public_html/web/css/styles1.css
+- /public_html/web/css/styles2.css
+- /public_html/web/css/styles3.css
+
+thus you would link each corresponding html file and css style sheet appropriately so that:
+- hw_day02_1.html links to styles1.css
+- hw_day02_2.html links to styles2.css
+- hw_day02_3.html links to styles3.css
+
+
+### Required Reading
+
+Read more of _HTML & CSS_, chapters 10, 11 and 12. This will help a lot!!!
+
+### The Bootcamp Blog:
+
+Is now live! You should have received a log-in username and password, let me know if not. Start using it tonight and post your homework on it. Don't forget to mark the appropriate categories when posting like "Web" and "Lower East Side." Also use the tag "hw2." 
+
+Please do this so I can find your work! If you don't do this I won't be able to find it and you won't receive credit. 
+
+### Resources:
+
+Mozilla Developer Network (MDN) CSS Resources. Keep in mind we are only concerned with styles right now. Tomorrow we will get into a few more styles and talk about the "Box Model" in CSS.
+
+_pro tip:_ When looking online for help try Googling "MDN" + your "coding/programming term" to find it on MDN's documentation. For example "MDN CSS psuedo class" or "MDN CSS font property."
+
+
+Try to have fun with this and see you tomorrow!
