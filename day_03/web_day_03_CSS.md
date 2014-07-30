@@ -84,9 +84,29 @@ We can write `comments` in CSS like so:
 */
 ```
 
+### types of CSS selectors
+There are 4 types of selectors in CSS
+
+- element
+- class
+- id
+- position in document
+
+### common CSS properties
+There are many types of properties in CSS, we will start with a few common ones.
+
+- `color` sets the font color
+- `background-color` sets the background color
+- `font-family` indicates the font we would like to use
+- `font-size` 
+- `font-weight`
+- ``
+
+### combining selectors
+
 Selectors can be __combined__ to create __*compound selectors*__:
 
-* we use a space to create nested selectors
+* we use a space to create nested selectors (position in document)
   * `.product p #sale-item { ... }`
 * we use no space to combine selectors
   * `.product p#sale-item { ... }`
@@ -151,7 +171,7 @@ __caution:__ space or no space between selectors matters!
 ## Best Practices
 - write CSS in an external file and link it to your HTML
 - use the indentation method of writing CSS
-- practice D.R.Y. CSS by:
+- practice DRY CSS by:
   - use inheritance 
   - limiting the number of id's
   - use classes instead
