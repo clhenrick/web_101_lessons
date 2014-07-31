@@ -58,11 +58,23 @@ From [A List Apart, CSS Positioning 101](http://alistapart.com/article/css-posit
 - bound by parent element or document.
 - postioned with offset properties.
 
-### Position Fixed
+### Position: Fixed
 - makes an element stick to the viewport when the user scrolls.
 - can combine with the `z-index` property to create headers and footers that don't move
 
+### Note:
+From [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position): "For __relatively positioned__ elements, the top or bottom property specifies the vertical offset from the normal position and the left or right property specifies the horizontal offset.
+
+For __absolutely positioned__ elements, the top, right, bottom, and left properties specify offsets from the edge of the element's containing block (what the element is positioned relative to). The margin of the element is then positioned inside these offsets.
+
+Most of the time, __absolutely positioned__ elements have auto values of height and width computed to fit the contents of the element. However, non-replaced __absolutely positioned__ elements can be made to fill the available space by specifying (as other than auto) both top and bottom and leaving height unspecified (that is, auto). Likewise for left, right, and width."
+
+
 ## Display
-- block
-- inline
+
+The two most important ways to alter a display:
+
+- none
 - inline-block
+
+more about displays in the next lecture.

@@ -4,6 +4,8 @@ Bootcamp Web Class Day 05: More Positioning and Floats
 
 - refresher on Box-Model
 - refresher on Positioning
+- go over display property and Barbara's notes from Day4
+- demo a navigation bar
 
 ## Positioning Recap
 __The 4 types of positioning:__
@@ -54,6 +56,7 @@ display: inherit
 - __warning:__ floats are slowing becoming less frequently used today as we have the option of using `display: inline-block` which makes positioning easier. We also have a technique called [flex box](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) but this has more limited browser support.
 
 - state types of float: `float: left / right / none`
+- can float non-images but must specify a width.
 - other important properties of floats to mention:
   - floated elements stack up to parent edge, then move down to next available edge
   - if floated elements are a different height then the next shorter element will float against a taller element when moving down.
