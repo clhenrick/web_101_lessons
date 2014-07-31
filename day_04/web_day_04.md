@@ -21,13 +21,18 @@ Bootcamp Web Class Day 04: More CSS Properties, The Box Model, & Positioning
 
 - Positioning
 
+- Display
+
 ## More CSS Properties
 
 ## Box Model
 
+![The Box Model](box-model.png)
+
 - Fito's presentaiton has a good diagram.
 - MDN article on box model.
 - Width doesn't include margin, only content + padding + border.
+- using `box-sizing: border-box'` to alter how the `width` property affects the box model 
 
 
 ## Positioning
@@ -52,3 +57,12 @@ From [A List Apart, CSS Positioning 101](http://alistapart.com/article/css-posit
 - takes an element out of the normal document flow. 
 - bound by parent element or document.
 - postioned with offset properties.
+
+### Position Fixed
+- makes an element stick to the viewport when the user scrolls.
+- can combine with the `z-index` property to create headers and footers that don't move
+
+## Display
+- block
+- inline
+- inline-block
