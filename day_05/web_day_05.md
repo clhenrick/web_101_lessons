@@ -53,9 +53,18 @@ Bootcamp Web Class Day 05: More Positioning and Floats
         zoom: 1;
       }
       ```
+      More simple Clearfix:
+ 
+		```
+		.clearfix {
+		 overflow: auto;
+		 zoom: 1; /* IE 6 */
+		}
+		```
 
 __Additional Reading:__
 
-- learn CSS layout [the clearfix hack](http://learnlayout.com/clearfix.html)
+- really simple explanation in _learn CSS layout_ [the clearfix hack](http://learnlayout.com/clearfix.html)
 - stack overflow: [What is clearfix?](http://stackoverflow.com/questions/8554043/what-is-clearfix) 
 - css tricks: [Force Element To Self-Clear its Children](http://css-tricks.com/snippets/css/clear-fix/)
+- for all things web browser compatibility: [can i use](http://caniuse.com/)
