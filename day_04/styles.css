@@ -1,0 +1,82 @@
+/* give all list items no decoration / bullets */
+li {
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* targets a div with a class of "box" */
+div.box {
+  position: relative;
+
+  background-color: hsla(0,50%,80%,0.7);
+  border: 1px solid orange;
+
+  width: 300px;
+  height: 300px;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* target h1 and p tags inside of a div */
+div h1, p {
+  text-align: center;
+}
+
+div p {
+  padding: 5px;
+}
+
+div.box.box1 h1 {
+  padding: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.box.box1 {
+  position: fixed;
+  width: 100%;
+  height: 20%;
+  z-index: 10;
+}
+
+.box.box2 {
+  position: absolute;
+  height: 2000px;
+  width: 40%;
+  right: 0;
+  background-color: hsl(20, 50%, 90%);
+}
+
+.box.box3 {
+  background-color: hsl(200, 50%, 90%);
+  width: 60%;
+  height: 1500px;
+  left: 0px;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  height: 8%;
+  width: 100%;
+  bottom: 0;
+  background-color: hsl(60, 50%, 90%);
+  z-index: 100;
+}
+
+.box.box4 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
