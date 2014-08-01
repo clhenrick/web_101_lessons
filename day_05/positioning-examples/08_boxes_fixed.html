@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Credit:These positioning examples are credited to Noah Stokes' blog post on A List Apart, CSS positioning 101: http://alistapart.com/article/css-positioning-101
+ -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Boxes positioned absolute and streched out</title>
+    <style>
+        h1, h3, div {
+          z-index: 10;
+          text-align: center;
+        }
+        div {
+          z-index: -9;
+          line-height: 48px;
+        }
+        #box_1 { 
+          position: absolute;
+          top: 0; 
+          right: 0; 
+          bottom: 0; 
+          left: 80%; 
+          height: 4000px;
+          background: #44accf; 
+        }
+        #box_3 {
+          position: absolute;
+          top: 300px; 
+          right: 20%; 
+          bottom: 0; 
+          left: 0; 
+          height: 2000px;
+          background: #b7d84b
+        }
+        #box_2 { 
+          position: fixed;
+          bottom: 50%;
+          left: 0;
+          right: 0;
+          height: 50px;          
+          background: #ff9c34; 
+        }
+    </style>
+</head>
+<body>
+    <h1>The Orange box has position fixed.</h1>
+    <h3>Scroll up and down and observe</h3>
+    <div id="box_1"></div>
+    <div id="box_3"></div>
+    <div id="box_2">I'm fixed!</div>
+</body>
+</html>
