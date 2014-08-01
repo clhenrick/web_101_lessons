@@ -1,9 +1,18 @@
 <!DOCTYPE html>
+<!-- Credit:These positioning examples are credited to Noah Stokes' blog post on A List Apart, CSS positioning 101: http://alistapart.com/article/css-positioning-101
+ -->
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Boxes positioned absolute and streched</title>
+    <title>Boxes positioned absolute and streched out</title>
     <style>
+        h1, h3 {
+          z-index: 10;
+          text-align: center;
+        }
+        div {
+          z-index: -9;
+        }
         #box_1 { 
           position: absolute; 
           top: 10px; 
@@ -23,6 +32,9 @@
     </style>
 </head>
 <body>
+    <h1>Two boxes positioned absolute and streched out</h1>
+    <h3>The blue box has top, right, bottom, left set to 10px</h3>
+    <h3>The orange box has top, right, bottom, left set to 20px</h3>
     <div id="box_1"></div>
     <div id="box_2"></div>
 </body>

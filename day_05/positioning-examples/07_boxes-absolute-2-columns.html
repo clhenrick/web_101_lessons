@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- Credit:These positioning examples are credited to Noah Stokes' blog post on A List Apart, CSS positioning 101: http://alistapart.com/article/css-positioning-101
+ -->
 <html>
 <head>
     <meta charset="utf-8">
@@ -6,6 +8,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Example H</title>
     <style>
+        h1, h3 {
+          text-align: center;
+          z-index: 10;
+        }
+        div {
+          z-index: -9;
+        }
         #box_1 { 
           position: absolute; 
           top: 0; 
@@ -24,6 +33,9 @@
     </style>
 </head>
 <body>
+    <h1>Two boxes positioned absolutely to create a two column layout</h1>
+    <h3>Left box has right: 20% and top, bottom, left: 0</h3>
+    <h3>Right box has left: 80% and top, right, bottom: 0</h3>
     <div id="box_1"></div>
     <div id="box_2"></div>
 </body>

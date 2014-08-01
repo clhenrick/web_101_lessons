@@ -1,13 +1,20 @@
 <!DOCTYPE html>
+<!-- Credit:These positioning examples are credited to Noah Stokes' blog post on A List Apart, CSS positioning 101: http://alistapart.com/article/css-positioning-101
+ -->
 <html>
 <head>
     <meta  charset="utf-8">
     <title>Example E</title>
     <style>
+        h1, h3, .box p {
+            text-align: center;
+        }
         .box {
             position: absolute;
             width: 200px;
             height: 200px;
+            line-height: 150px;
+            /*margin: 10px;*/
         }
 
         #box_1 { 
@@ -33,9 +40,13 @@
     </style>
 </head>
 <body>
-    <div id="box_1" class="box"></div>
-    <div id="box_2" class="box"></div>
-    <div id="box_3" class="box"></div>
-    <div id="box_4" class="box"></div>
+    <h1>Four boxes positioned absolute</h1>
+    <h3>The offset properties are used to put them in the corners</h3>
+    <h3>For absolutely positioned elements, the top, right, bottom, and left properties <br> specify offsets from the edge of the element's containing block (what the element is positioned relative to). <br> The margin of the element is then positioned inside these offsets.</h3>
+    <h3>Try resizing the browser window :)</h3>
+    <div id="box_1" class="box"><p>top: 0, left: 0</p></div>
+    <div id="box_2" class="box"><p>top: 0, right: 0</p></div>
+    <div id="box_3" class="box"><p>bottom: 0, left: 0</p></div>
+    <div id="box_4" class="box"><p>bottom: 0, right: 0</p></div>
 </body>
 </html>
