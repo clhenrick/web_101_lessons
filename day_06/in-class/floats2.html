@@ -54,11 +54,14 @@
   </style>
 </head>
 <body>
+  <h1>We can <em>clear</em> floats with an empty subsequent element OR <br> by using the <em>clear fix</em> method.</h1>
+  <h3>Open the web inspector and turn on the clear:both property in the box that has a class of "clear"</h3>
+  <h3>Then turn it back off add the class "group" to the parent div</h3>
   <div class="box parent">
     <div class= "box child"></div>
     <p> some text and stuff bla bla bla. </p>
     <div class="clear">
-      <!-- an empty element for "clearing" the float of the child box -->
+      <!-- this is an empty element for "clearing" the float of the "child" box -->
     </div>
   </div>
 
