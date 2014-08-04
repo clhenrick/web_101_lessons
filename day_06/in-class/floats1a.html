@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSS Float inheritance</title>
+  <style type="text/css">
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .box, .sm-box {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  .sm-box {
+    clear: both; /* comment this out to show how children inherit floats*/
+  }
+  .box1 {
+    background-color: green;
+  }
+  .box2 {
+    background-color: blue;    
+  }
+  .box3 {
+    background-color: orange;
+  }
+  .box4 {
+    background-color: yellow;
+  }
+  </style>
+</head>
+<body>
+  <div class="box box1">
+    <div class="sm-box box3"></div>
+    <div class="sm-box box4"></div>
+  </div>
+  <div class="box box2">
+    
+  </div>
+</body>
+</html>

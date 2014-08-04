@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Clearfixing Floats</title>
+  <style type="text/css">
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .parent {
+    width: 300px;
+    margin: 0 auto;
+    background-color: yellow;
+    border: 10px solid hsla(0, 0%, 0%, 0.6);
+  }
+
+  .parent p {
+    padding: 10px;
+  }
+
+  .child {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    float: right;
+    background-color: blue;    
+  }
+
+  /* manual clear with an empty element */
+  .clear {
+    /*clear: both;*/
+  }
+  
+
+  /* clearfix method */
+  /* apply the class "group" to the parent 
+  and it will self clear any children */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    zoom: 1; /* for IE6 & 7*/
+  }
+
+  </style>
+</head>
+<body>
+  <div class="box parent">
+    <div class= "box child"></div>
+    <p> some text and stuff bla bla bla</p>
+    <div class="clear">
+      <!-- an empty element for "clearing" the float of the child box -->
+    </div>
+  </div>
+
+    
+  </div>
+</body>
+</html>
