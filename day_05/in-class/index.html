@@ -1,0 +1,85 @@
+<!doctype HTML>
+<html>
+
+<!-- the head contains things such as our meta information, title and external links. Nothing visible in the browser's viewport goes in here -->
+<head>
+
+  <!-- telling the browser what character encoding we are using. super important. -->
+  <meta charset="utf-8">
+
+  <!-- the title will show up in the browser's tab -->
+  <title>Grumpy Cat Fan Club</title>
+
+  <!-- linking an external CSS document
+   ./ says look in the current folder while ../ says go up one folder -->
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+  <!-- all of the visible HTML goes in here. Nothing visible should be outside of the body tag -->
+
+  <!-- a div with an id of wrapper that will center our website in the browser's viewport -->
+  <div id="wrapper">
+
+    <!-- the header will contain our title and navbar at the top -->
+    <header id="banner">
+
+      <!-- our title goes in this div -->
+      <div id="title">
+        <h1>The Official Grumpy Cat Fan Club!</h1>
+      </div>
+
+      <!-- navigation bar container -->
+      <nav>
+        <!-- we can create a navigation bar with an un-ordered list -->
+        <ul>
+          <li><a href="#">link one</a></li> <!-- a "#" is a place holder for a link -->
+          <li><a href="#">link two</a></li>
+          <li><a href="#">link three</a></li>
+        </ul>        
+      </nav>
+    </header> <!-- end of the header -->
+
+    <!-- the main content of our site -->
+    <main>
+
+      <!-- a section with a class of grumpy -->
+      <section class="grumpy">
+
+        <!-- figure is a container for media, such as images -->
+        <figure>
+          <!-- we use an img for content images -->
+          <img src="http://cdn.grumpycats.com/wp-content/uploads/2014/06/Grumpy-Cat-625x625.jpg">
+
+          <!-- figcaption holds a caption for our media -->
+          <figcaption>
+            Hi, I'm Grumpy Cat
+          </figcaption>
+        </figure>
+        
+        <div class="grumpy-comments">
+          <!-- another paragraph inside our grumpy section -->
+          <h3 class="discuss"> Here we will discuss our Grumpy Cat LOL</h3>
+          <p>Comments about Grumpy Cat!!!</p>
+        </div>
+      </section>
+
+      <!-- another section with a class of grumpy
+      notice how the styles are the same because of our classes being reused -->
+      <section class="grumpy">
+        <figure>         
+          <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Grumpy_Cat_by_Gage_Skidmore.jpg/800px-Grumpy_Cat_by_Gage_Skidmore.jpg">                    
+          <figcaption>
+            I'm Grumpy again.
+          </figcaption>
+        </figure>        
+        <div class="grumpy-comments">
+          <!-- another paragraph inside our grumpy section -->
+          <h3 class="discuss"> Here we will discuss another Grumpy Cat</h3>
+          <p>More comments about Grumpy Cat!!!</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

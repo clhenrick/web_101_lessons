@@ -1,0 +1,174 @@
+/************************************************************
+ The external CSS file for the Grumpy Cat Fan Club webpage!
+ ************************************************************/
+
+/* certain properties applied to our body and html elements,
+ such as font-size will be inherited by their child elements */
+body, html {
+  /*display: none;*/
+  /*visibility: hidden;*/
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: hsl(0, 0%, 70%);
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+
+
+#wrapper {
+  position: relative;
+  /* specifying auto in our left and right margin 
+  centers our wrapper*/
+  margin: 0 auto;
+  width: 900px;
+  height: 2000px;
+  background-color: #fff;
+  /*using the border property can help us see 
+  how our elements are being positioned*/
+  border: 1px solid red; 
+}
+
+/*the banner will always be the entire width 
+of the wrapper so set it to 100%*/
+#banner {
+  height: 80px;
+  width: 100%;
+  /*visibility: hidden;*/
+  /*display: none;  */
+  /*border: 1px solid blue;*/
+}
+
+
+#title {
+  display: inline-block;
+  text-align: center;
+  /*setting our font-size to 2em means it will be
+  twice as big as what we set it to in pixels in the body */
+  width: 66%;
+  height: 100%;
+  border: 1px dashed orange;
+  background-color: black;  
+}
+
+#title h1 {
+  font-size: 3em;
+  line-height: 1.7em;
+  margin-top: 15px;
+  color: white;
+}
+
+#banner nav {
+  position: absolute; 
+  display: inline-block;
+  width: 34%;
+  height: 80px;
+  background-color: black;
+  border: 1px dashed green;
+}
+
+nav ul {
+  /* list-style: none gets rid of the bullets in our <li>'s */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  /* setting our li's to inline-block will automatically
+   align them horizontally */
+  display: inline-block;
+  margin: 0;
+  /*padding: 10px;*/
+  margin-top: 20px; 
+ /* margin-left: 15px;*/
+  margin-left: 15px;  
+  text-align: center;
+}
+
+nav a {
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 3em;
+  color: white;
+  text-decoration: none;
+  border: 1px dashed yellow;
+  padding: 10px;
+}
+
+/*nav li:hover {
+  background-color: yellow;
+  color: black;  
+}*/
+
+nav a:hover {
+  color: black;
+  background-color: yellow;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  /* we can set a background image with CSS like so: */
+  /*background: url("http://cdn.grumpycats.com/wp-content/uploads/2014/06/Grumpy-Cat-625x625.jpg")*/
+}
+
+.grumpy {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: hsl(300, 50%, 75%);
+}
+
+/* using the asterick lets us set properites for all of
+an element's children at once */
+section.grumpy * {
+  box-sizing: border-box;
+  position: relative;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", 
+  Garamond, "Times New Roman", serif;
+  /* each subsequent block level element will 
+  have its font-size scaled by 1.5 */
+  font-size: 1.5em;
+  border: 1px dashed aqua;
+  margin: 0;
+}
+
+.grumpy figure {
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px;
+  margin: 0px;
+  background-color: orange;
+}
+
+/* we can set our image size to be smaller than
+the actual size of the image */
+.grumpy img {
+  width: 250px;
+  height: 250px;
+}
+
+figcaption {
+  padding: 0 20px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.grumpy-comments {
+  display: inline-block;
+  padding: 10px;
+  max-width: 600px;
+  top: -190px;
+}
+
+h3.discuss {  
+  display: inline-block;
+  font-size: 2em;
+}
+
+
+
+
+
