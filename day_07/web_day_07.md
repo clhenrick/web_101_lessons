@@ -323,6 +323,7 @@ Bootcamp Web Class Day 07:<br>CSS Transforms, Transitions and Animations
     animation: move 10s steps(10) infinite alternate;
   }
   ```
+- [good example of using steps()](http://jsfiddle.net/simurai/CGmCe/light/) to make a sprite.
  	  
 ## resources / references
 
