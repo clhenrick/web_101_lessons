@@ -9,13 +9,8 @@
         <title>Project Name</title>
     </head>
     <style type="text/css">
-/*      -webkit-transform: scale(1.5);
-         -moz-transform: scale(1.5);
-          -ms-transform: scale(1.5);
-           -o-transform: scale(1.5);
-              transform: scale(1.5);*/
 
-      @-webkit-keyframes animation-name {
+/*      @-webkit-keyframes animation-name {
         0%   { opacity: 0; }
         100% { opacity: 1; }
       }
@@ -30,17 +25,79 @@
       @keyframes animation-name {
         0%   { opacity: 0; }
         100% { opacity: 1; }
+      }*/
+      
+      -webkit-@keyframes infinite-spinning {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
       }
 
       #box {
         width: 200px;
         height: 200px;
-        background-color: green;
-        -webkit-animation: animation-name 5s infinite;
-        -moz-animation: animation-name 5s infinite;
-        -o-animation: animation-name 5s infinite;
-        animation: animation-name 5s infinite;
+        background-color: red;
+/*        -webkit-animation: animation-name 10s infinite;
+        -moz-animation: animation-name 10s infinite;
+        -o-animation: animation-name 10s infinite;
+        animation: animation-name 10s infinite;*/
+
+        -webkit-animation: infinite-spinning 10s infinite;
       }
+      
+      #box {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+/*        -webkit-transition: all 2s ease-out 3s;
+        -moz-transition: all 2s ease-out 3s;
+        -o-transition: all 2s ease-out 3s;
+        transition: all 2s ease-out 3s;
+
+      -webkit-transform-origin: bottom right;
+         -moz-transform-origin: bottom right;
+          -ms-transform-origin: bottom right;
+           -o-transform-origin: bottom right;
+              transform-origin: bottom right;
+
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);*/
+
+/*        -webkit-transform: translate(0);
+           -moz-transform: translate(0);
+            -ms-transform: translate(0);
+             -o-transform: translate(0);
+                transform: translate(0);*/
+      }
+
+      #box:hover {
+        background-color: orange;
+        cursor: pointer;
+        margin-top: 50px;
+        height: 500px;
+        width: 50px;
+        content: "some text in here...";
+        -webkit-transform: rotate(360deg);
+           -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);   
+/*        -webkit-transform: translate(300px, -500px);
+           -moz-transform: translate(300px, -500px);
+            -ms-transform: translate(300px, -500px);
+             -o-transform: translate(300px, -500px);
+                transform: translate(300px, -500px); */                    
+      }
+
     </style>
     <body>
       <div id="box"></div>
