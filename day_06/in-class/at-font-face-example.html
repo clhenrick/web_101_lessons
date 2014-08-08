@@ -2,6 +2,7 @@
 <head>
   <meta charset="utf-8">
   <title>Web Font Sample</title>
+  <link rel="stylesheet" type="text/css" href="">
   <!-- example from MDN -->
   <style type="text/css" media="screen, print">
     @font-face {
@@ -9,14 +10,82 @@
       src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
     }
     html { font-size: 10px; }    
-    body { font-family: "Bitstream Vera Serif Bold", serif }
-    header { font-size: 2em; }
-    p { font-size: 5em;}
+
+    body { 
+      font-family: "Bitstream Vera Serif Bold", serif;
+      width: 100%;
+      margin: 0 auto;
+      border: 1px solid blue;
+
+       }
+
+    img {
+      max-width: 100%;
+    }
+
+    .wrapper {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    .wrapper.index { 
+      background: url("./#"); 
+    }
+
+    .wrapper section {
+      width: 50%;
+      height: 100%;
+      float: left;
+      margin: 10%;
+      background-color: yellow;
+    }
+
+    header { 
+      font-size: 2em; 
+      text-align: center;
+      width: 93.75%; /* 900px / 960px = .9375 * 100% = 93.75% */
+      margin: 0 auto;
+      border: 1px solid orange;
+    }
+
+    header p { font-size: 1em !important;}
+    header h1 { font-size: 4em; }
+
+    header img {
+      max-width: 41.6666667%; /* 400px/900px = */
+    }
+
+    @media screen and (max-width: 900px) {
+      header {
+          width: 41.6666667%;
+      }
+    }
+
+
+    /* target / context = result   */
+
+    /* 20px / 10px = 2 */
+    /* 900px / 960px = .9375 * 100% = 93.75% */
+    /* 400px / 960px = .416666667 * 100% = 41.6666667*/
+
   </style>
 </head>
 <body>
-  <header>
-    <p>This is Bitstream Vera Serif Bold.</p>
-  </header>  
+  <div class="wrapper index">
+    
+    <header>
+      <h1>Here's a heading</h1>
+      <p style="font-size:0.2em">This is Bitstream Vera Serif Bold.</p>
+    </header>
+
+    <section>
+      
+    </section>
+
+  </div> 
 </body>
 </html>
+
+
+
+
