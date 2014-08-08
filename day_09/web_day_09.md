@@ -108,33 +108,33 @@ Then set breakpoints using values such as `min-width` and `max-width`. There are
 **Example:**
 
 ```
-@media screen and (max-width: 480px) {.logo {float: none;margin: 0 auto;text-align: center;}.main {background-color: #26343e;float: none;margin: 0 auto;text-align: center;}.nav {float: none;}.map {float: none;width: 100%;}}
+@media screen and (max-width: 480px) {	.main-logo {		float: none;		margin: 0 auto;		text-align: center;	}	.main-content {		background-color: #26343e;		float: none;		margin: 0 auto;		text-align: center;	}	.nav-bar {		float: none;	}	#map {		float: none;		width: 100%;	}}
 ```
 
-**Another example: **
+**Another example:**
 ```
 /* regular styles */
-/* Logo */
+/* Main Logo */
  
-.logo {
+.main-logo {
   float: left;
   width: 36.1702128%; /* 340px/940px */
 }
  
 /* Navigation */
  
-nav {
+.nav-bar {
   float: right;
 }
 /* target an iphone screen size */
 @media screen and (max-width: 320px) {
-  .logo {
+  .main-logo {
     float: none;
     margin: 0 auto;
     width: inherit;
     
   }
-  nav {
+  .nav-bar {
     float: none;
     text-align: center;
     width: inherit;
@@ -142,7 +142,9 @@ nav {
 }```
 
 ### Breakpoints
-idea of having "breakpoints" in a site where content and design scales with `@media` queries.breakpoints are determined by content, ie: when resizing the browser window and the content stacks weird, starts to look cramped, isn't functional that is a breakpoint. Add 20px from there.- keep in mind a user isn't going to be resizing the window on their laptop to see how the site changes. This is just for when the window is opened at different sites that it will still function.- this fits with concept of having a fluid site who's content and design changes from desktop > tablet > mobile.- for example 768px is the general spec for tablet width.
+The concept of having "breakpoints" in a site is when the content and design scales with `@media` queries.
+Breakpoints are determined by content, ie: when resizing the browser window and the content stacks weird, starts to look cramped or isn't functional that is a breakpoint.
+Keep in mind a user isn't going to be resizing the window on their laptop to see how the site changes. Breakpoints are for when the window is opened at different sites that it will still function.- this fits with concept of having a fluid site who's content and design changes from desktop > tablet > mobile.- for example 768px is the general spec for tablet width.
 
 
 ## References:
