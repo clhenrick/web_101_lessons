@@ -235,8 +235,11 @@ window.onload = function() {
     &lt;head&gt;      
     &lt;/head&gt;
     &lt;body&gt;
-      &lt;script &gt;          
 
+      &lt;!-- <span>IMPORTANT: all of our HTML goes above the script tag </span>--&gt; 
+
+      &lt;script&gt;          
+          
           // our JS goes here.
           
           window.onload(){
@@ -247,6 +250,25 @@ window.onload = function() {
     &lt;/body&gt;
   &lt;/html&gt;
 </code></pre></div>
+<div>Or link to external JS files</div>
+<div><pre><code class="xml">
+  &lt;!-- index.html --&gt;    
+  &lt;doctype html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;!-- we can link to external JS files in our head --&gt;      
+      &lt;script src="./js/vendor/leaflet.js"&gt;&lt;/script&gt;  
+    &lt;/head&gt;
+    &lt;body&gt;
+
+      &lt;<span>!-- IMPORTANT: all of our HTML goes above the script tag</span> --&gt; 
+       
+      &lt;!-- we can link to external JS files in our body as well --&gt;  
+      &lt;script src="./js/some-cool-script.js"&gt;&lt;/script&gt;  
+    &lt;/body&gt;
+  &lt;/html&gt;
+</code></pre></div>
+
 <div><em>Style</em></div>
 <div>Be careful with naming things.</div>
 <div><pre><code>
