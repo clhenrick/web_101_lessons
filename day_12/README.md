@@ -9,7 +9,7 @@ __Disclaimer:__ This is a super ultra crash course in Javascript meant to be tau
 
 Review JS thus far.
 
-Live code the app and have students follow along. With time permitting and if people aren't too lost explain the name spacing convention and why it's useful.
+Live code [the dot app](http://clhenrick.github.io/web_101_lessons/day_12/dot-generator.html) and have students follow along. With time permitting and if people aren't too lost explain the name spacing convention and why it's useful.
 
 
 
