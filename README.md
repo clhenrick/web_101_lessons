@@ -1,6 +1,8 @@
 Parsons MFA DT Bootcamp Web Curriculum
 =========
-These are my notes (and sometimes slides) for the 3 Week Bootcamp Web class taught to the incoming class at the [Parsons MFA Design and Technology](http://www.newschool.edu/parsons/mfa-design-technology/) program. 
+These are my notes (and sometimes slides) for the 3 Week Bootcamp Web class taught to the incoming class at the [Parsons MFA Design and Technology](http://www.newschool.edu/parsons/mfa-design-technology/) program during the summer of 2014.
+
+This curriculum is licensed under a [Creative Commons NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 Feel free to Fork and Pull!
 
