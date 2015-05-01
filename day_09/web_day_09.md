@@ -1,7 +1,7 @@
 Bootcamp Web Class Day 09: Responsive Media
 ==========
 
-Generally speaking the idea is that you want to use **percentages** and **em**'s for your units of measure. 
+Generally speaking the idea is that you want to use **percentages** and **em**'s as units of measure. 
 
 *You will need to use math*. Particularly the formula: `target / context = result`. 
 
@@ -77,6 +77,37 @@ When setting **flexible padding** on an element, your `context` is the width of 
 
   - eg: 20px / 300px = 0.06666666666667
   - `padding: 6.666667%; /* 20px/300px */`  
+  
+### Responsive Columns
+CSS3 has a feature that allows for the creation of responsive columns. [CSS Tricks](https://css-tricks.com/guide-responsive-friendly-css-columns/) has a good guide. Basically the properties are:
+
+- `column-count` : the max number of columns you'd like to have inside a block element. 
+ 
+- `column-width` : the minimum width (eg in pixels) of each column.
+
+Note that the above two properties can be specified short hand via `columns`. For example, to specifiy a 3 column layout with a minimum width of 150px per column do `columns: 3 150px`
+
+- `column-gap` : the "gutter" or "gap" between each column. This is split in half for each column so if you specify `40px` the left side of the gutter will be `20px` and the right side will be `20px`
+
+- `column-rule` : similar to the border property, specify a ruled-line between each column.
+
+Here is an example, note that you should use vendor prefixes for this property:
+
+```
+.column-container {
+	 -webkit-columns: 2 200px;
+	     -moz-columns: 2 200px;
+	          columns: 2 200px;
+	  -webkit-column-gap: 4em;
+	     -moz-column-gap: 4em;
+	          column-gap: 4em;
+	  -webkit-column-rule: 1px dotted #ddd;
+	     -moz-column-rule: 1px dotted #ddd;
+	          column-rule: 1px dotted #ddd;
+ }
+
+```
+
 
 ## Responsive Images
 
